@@ -1,0 +1,30 @@
+app:
+  port: 8080
+  log: true
+  secret: "asupersecret"
+  sessionKey: "oBlog"
+  domain: ""
+  origin: "http://localhost:3000"
+
+db:
+  username: "postgres"
+  password: "password"
+  database: "olympusgin"
+  host: "localhost"
+  port: 5432
+  log: true
+  sync: true
+
+redis:
+  host: "localhost"
+  port: 6379
+
+aws:
+  access_key: "aws_access"
+  secret_access_key: "aws_secret"
+  storage_bucket_name: "bucket"
+  region: "region"
+
+gmail:
+  user: "test@gmail.com"
+  password: "password"
